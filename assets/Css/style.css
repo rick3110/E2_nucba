@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@500&family=Poppins&display=swap');
+
 :root {
     --header-bg-color: #fff6ea; 
     --main-bg-color: #ffc4d0;
@@ -11,28 +13,36 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family: cursive;
+
+header{
+    background-color: var(--header-bg-color);
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 65px;
+    height: 100px;
 }
 
 nav{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: white;    
-    padding: 1rem;  
+    justify-content: space-between;
+    align-items: center;     
+    height: 100px;
+    padding: 0 45px;
 }
 
 ul a{
     color: black;
     text-decoration: none;
+    font-weight: 800;
 }
 
 
 ul{
     list-style: none;
     display: flex;
-    gap: 2rem;
+    padding: 0 45px;
+    gap: 20px;
 }
 
 img{
@@ -42,3 +52,11 @@ img{
     
 }
 
+main {
+    background-color: var(--main-bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
